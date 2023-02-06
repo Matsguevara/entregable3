@@ -1,0 +1,33 @@
+.pagination {
+    margin: 20px 0;
+}
+
+.pagination ul {
+    list-style: none;
+    text-align: center;
+}
+
+.pagination ul li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pagination ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #062226;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pagination ul li a:hover {
+    background: rgb(6, 222, 250);
+}
+
+.pagination ul li .active {
+    background: rgb(6, 222, 250) ;
+    font-weight: bold;
+}
+

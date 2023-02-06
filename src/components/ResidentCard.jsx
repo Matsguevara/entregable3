@@ -18,12 +18,12 @@ const ResidentCard = ({residentUrl}) => {
             <img src={residentInfo?.image} alt="" />
         </div>
         <div className='residentCard__status'>
-          <div className='residentCard__status-circle'></div>
+          <div className={`residentCard__status-circle ${residentInfo?.status}`}></div>
           <h4 className='residentCard__status-name'>{residentInfo?.status}</h4>
-        <hr className='residentCard__line'/>
         </div>
         <section className='residentCard__info'>
             <h3 className='residentCard__name'>{residentInfo?.name}</h3>
+        <hr className='residentCard__line'/>
             <ul className='residentCrad__list'>
                 <li className='residentCard__item'><span>Specie:</span>{residentInfo?.species}</li>
                 <li className='residentCard__item' ><span>Origin:</span>{residentInfo?.origin.name}</li>

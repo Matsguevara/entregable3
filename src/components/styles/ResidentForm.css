@@ -1,0 +1,43 @@
+.residentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 70vh;
+    background-image: url(https://img.zonared.com/images/noticias/portada/37000/37363-h.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.residentForm__container { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.residentForm__input {
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.residentForm__btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 250, 5);
+    cursor: pointer;
+    transition: transform 300ms ease;
+
+}
+
+.residentForm__btn:hover {
+    transform: scale(1.03);
+}
